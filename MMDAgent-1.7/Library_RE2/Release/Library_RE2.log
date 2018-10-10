@@ -1,0 +1,105 @@
+﻿  src\re2\filtered_re2.h
+  src\re2\prefilter.h
+  src\re2\prefilter_tree.h
+  src\re2\prog.h
+  src\re2\re2.h
+  src\re2\regexp.h
+  src\re2\set.h
+  src\re2\stringpiece.h
+  src\re2\unicode_casefold.h
+  src\re2\unicode_groups.h
+  src\re2\variadic_function.h
+  src\re2\walker-inl.h
+         12 個のファイルをコピーしました。
+  src\util\atomicops.h
+  src\util\benchmark.h
+  src\util\flags.h
+  src\util\logging.h
+  src\util\mutex.h
+  src\util\pcre.h
+  src\util\random.h
+  src\util\sparse_array.h
+  src\util\sparse_set.h
+  src\util\test.h
+  src\util\thread.h
+  src\util\utf.h
+  src\util\util.h
+  src\util\valgrind.h
+         14 個のファイルをコピーしました。
+  bitstate.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  compile.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  dfa.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  filtered_re2.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  mimics_pcre.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  nfa.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  onepass.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  parse.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  perl_groups.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  prefilter.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  prefilter_tree.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  prog.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  re2.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  regexp.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  set.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  simplify.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  stringpiece.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  tostring.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  unicode_casefold.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  unicode_groups.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  コンパイル中...
+  hash.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  rune.cc
+  stringprintf.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  strutil.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+  valgrind.cc
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\util.h(98): warning C4996: 'std::tr1': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\unordered_set(831): note: 'std::tr1' の宣言を確認してください
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_RE2.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_RE2\lib\RE2.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_RE2) が Library の OutputFile プロパティ値 (RE2) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_RE2.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_RE2.lib

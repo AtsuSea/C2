@@ -1,0 +1,57 @@
+﻿  src\include\BulletPhysics.h
+  src\include\CameraController.h
+  src\include\MMDFiles.h
+  src\include\MMDFiles_utils.h
+  src\include\MotionController.h
+  src\include\MotionManager.h
+  src\include\PMDBone.h
+  src\include\PMDConstraint.h
+  src\include\PMDFace.h
+  src\include\PMDFile.h
+  src\include\PMDIK.h
+  src\include\PMDMaterial.h
+  src\include\PMDModel.h
+  src\include\PMDRigidBody.h
+  src\include\PMDTexture.h
+  src\include\PMDTextureLoader.h
+  src\include\PTree.h
+  src\include\SystemTexture.h
+  src\include\UTF8Table.h
+  src\include\VMD.h
+  src\include\VMDFile.h
+         21 個のファイルをコピーしました。
+  BulletPhysics.cpp
+  CameraController.cpp
+  KinematicMotionState.cpp
+  MMDFiles_utils.cpp
+  MotionController.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\motioncontroller.cpp(466): warning C4316: '_MotionControllerBoneElement': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+  MotionManager.cpp
+  PMDBone.cpp
+  PMDConstraint.cpp
+  PMDFace.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdface.cpp(100): warning C4316: '_PMDFaceVertex': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+  PMDIK.cpp
+  PMDMaterial.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdmaterial.cpp(185): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  PMDModel.cpp
+  PMDModel_parse.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdmodel_parse.cpp(165): warning C4316: 'PMDBone': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdmodel_parse.cpp(331): warning C4316: 'PMDRigidBody': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdmodel_parse.cpp(384): warning C4316: 'btTransform': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+  PMDModel_render.cpp
+  PMDModel_update.cpp
+  PMDRigidBody.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdrigidbody.cpp(163): warning C4316: 'KinematicMotionState': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\pmdrigidbody.cpp(168): warning C4316: 'KinematicMotionState': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+  PMDTexture.cpp
+  PMDTextureLoader.cpp
+  PTree.cpp
+  SystemTexture.cpp
+  コンパイル中...
+  VMD.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\vmd.cpp(426): warning C4316: '_BoneKeyFrame': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+c:\users\drowl\git\c実験\mmdagent-1.7\library_mmdfiles\src\lib\vmd.cpp(525): warning C4316: '_CameraKeyFrame': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_MMDFiles.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_MMDFiles\lib\MMDFiles.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_MMDFiles) が Library の OutputFile プロパティ値 (MMDFiles) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_MMDFiles.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_MMDFiles.lib

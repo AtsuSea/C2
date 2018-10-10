@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804260771C5CB7B800B78D8A /* GLee.c in Sources */ = {isa = PBXBuildFile; fileRef = 804260721C5CB77500B78D8A /* GLee.c */; };
+		804260791C5CB7E400B78D8A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804260781C5CB7E400B78D8A /* OpenGLES.framework */; };
+		8042607B1C5CBCCA00B78D8A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8042607A1C5CBCCA00B78D8A /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8042605D1C5CB70300B78D8A /* libLibrary_GLee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary_GLee.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8042606F1C5CB77500B78D8A /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		804260701C5CB77500B78D8A /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		804260711C5CB77500B78D8A /* extensionList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = extensionList.txt; sourceTree = "<group>"; };
+		804260721C5CB77500B78D8A /* GLee.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GLee.c; sourceTree = "<group>"; };
+		804260731C5CB77500B78D8A /* GLee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLee.h; sourceTree = "<group>"; };
+		804260741C5CB77500B78D8A /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		804260751C5CB77500B78D8A /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		804260761C5CB77500B78D8A /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		804260781C5CB7E400B78D8A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8042607A1C5CBCCA00B78D8A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8042607F1C5CBDCD00B78D8A /* GLee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLee.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8042605A1C5CB70300B78D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042607B1C5CBCCA00B78D8A /* CoreFoundation.framework in Frameworks */,
+				804260791C5CB7E400B78D8A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804260541C5CB70300B78D8A = {
+			isa = PBXGroup;
+			children = (
+				8042607A1C5CBCCA00B78D8A /* CoreFoundation.framework */,
+				804260781C5CB7E400B78D8A /* OpenGLES.framework */,
+				804260691C5CB77500B78D8A /* include */,
+				8042606E1C5CB77500B78D8A /* src */,
+				8042605E1C5CB70300B78D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8042605E1C5CB70300B78D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8042605D1C5CB70300B78D8A /* libLibrary_GLee.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804260691C5CB77500B78D8A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8042607F1C5CBDCD00B78D8A /* GLee.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8042606E1C5CB77500B78D8A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8042606F1C5CB77500B78D8A /* config.h.in */,
+				804260701C5CB77500B78D8A /* configure */,
+				804260711C5CB77500B78D8A /* extensionList.txt */,
+				804260721C5CB77500B78D8A /* GLee.c */,
+				804260731C5CB77500B78D8A /* GLee.h */,
+				804260741C5CB77500B78D8A /* install-sh */,
+				804260751C5CB77500B78D8A /* Makefile.in */,
+				804260761C5CB77500B78D8A /* readme.txt */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8042605C1C5CB70300B78D8A /* Library_GLee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804260661C5CB70300B78D8A /* Build configuration list for PBXNativeTarget "Library_GLee" */;
+			buildPhases = (
+				804260591C5CB70300B78D8A /* Sources */,
+				8042605A1C5CB70300B78D8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library_GLee;
+			productName = Library_GLee;
+			productReference = 8042605D1C5CB70300B78D8A /* libLibrary_GLee.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804260551C5CB70300B78D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					8042605C1C5CB70300B78D8A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ER7BUZVGH2;
+					};
+				};
+			};
+			buildConfigurationList = 804260581C5CB70300B78D8A /* Build configuration list for PBXProject "Library_GLee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 804260541C5CB70300B78D8A;
+			productRefGroup = 8042605E1C5CB70300B78D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8042605C1C5CB70300B78D8A /* Library_GLee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804260591C5CB70300B78D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804260771C5CB7B800B78D8A /* GLee.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		804260641C5CB70300B78D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		804260651C5CB70300B78D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804260671C5CB70300B78D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_CFLAGS = (
+					"-DMMDAGENT",
+					"-DTARGET_OS_IPHONE",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/src";
+			};
+			name = Debug;
+		};
+		804260681C5CB70300B78D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				OTHER_CFLAGS = (
+					"-DMMDAGENT",
+					"-DTARGET_OS_IPHONE",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/src";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804260581C5CB70300B78D8A /* Build configuration list for PBXProject "Library_GLee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804260641C5CB70300B78D8A /* Debug */,
+				804260651C5CB70300B78D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804260661C5CB70300B78D8A /* Build configuration list for PBXNativeTarget "Library_GLee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804260671C5CB70300B78D8A /* Debug */,
+				804260681C5CB70300B78D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804260551C5CB70300B78D8A /* Project object */;
+}

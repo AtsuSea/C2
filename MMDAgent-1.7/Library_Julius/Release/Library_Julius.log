@@ -1,0 +1,605 @@
+﻿  src\libjulius\include\julius\acconfig.h
+  src\libjulius\include\julius\beam.h
+  src\libjulius\include\julius\callback.h
+  src\libjulius\include\julius\config-android-libjulius.h
+  src\libjulius\include\julius\config-ios-libjulius.h
+  src\libjulius\include\julius\config-msvc-libjulius.h
+  src\libjulius\include\julius\define.h
+  src\libjulius\include\julius\extern.h
+  src\libjulius\include\julius\global.h
+  src\libjulius\include\julius\graph.h
+  src\libjulius\include\julius\jconf.h
+  src\libjulius\include\julius\jfunc.h
+  src\libjulius\include\julius\julius.h
+  src\libjulius\include\julius\juliuslib.h
+  src\libjulius\include\julius\misc.h
+  src\libjulius\include\julius\multi-gram.h
+  src\libjulius\include\julius\plugin.h
+  src\libjulius\include\julius\recog.h
+  src\libjulius\include\julius\search.h
+  src\libjulius\include\julius\trellis.h
+  src\libjulius\include\julius\useropt.h
+  src\libjulius\include\julius\wchmm.h
+         22 個のファイルをコピーしました。
+  src\libsent\include\sent\adin.h
+  src\libsent\include\sent\config-android-libsent.h
+  src\libsent\include\sent\config-ios-libsent.h
+  src\libsent\include\sent\config-msvc-libsent.h
+  src\libsent\include\sent\dfa.h
+  src\libsent\include\sent\dnn.h
+  src\libsent\include\sent\hmm.h
+  src\libsent\include\sent\hmm_calc.h
+  src\libsent\include\sent\htk_defs.h
+  src\libsent\include\sent\htk_hmm.h
+  src\libsent\include\sent\htk_param.h
+  src\libsent\include\sent\machines.h
+  src\libsent\include\sent\mfcc.h
+  src\libsent\include\sent\ngram2.h
+  src\libsent\include\sent\ptree.h
+  src\libsent\include\sent\speech.h
+  src\libsent\include\sent\stddefs.h
+  src\libsent\include\sent\tcpip.h
+  src\libsent\include\sent\util.h
+  src\libsent\include\sent\vocabulary.h
+         20 個のファイルをコピーしました。
+  adin-cut.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\adin-cut.c(176): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\adin-cut.c(309): warning C4101: 'transfer_online_local': ローカル変数は 1 度も使われていません。
+  backtrellis.c
+  beam.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\beam.c(539): warning C4244: 'return': 'LOGPROB' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\beam.c(609): warning C4244: '+=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\beam.c(644): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\beam.c(667): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  callback.c
+  confnet.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\confnet.c(664): warning C4244: '=': 'double' から 'PROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\confnet.c(823): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  default.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\default.c(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\default.c(215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\default.c(217): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\default.c(309): warning C4305: '=': 'double' から 'LOGPROB' へ切り詰めます。
+  dfa_decode.c
+  factoring_sub.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\factoring_sub.c(183): warning C4101: 's': ローカル変数は 1 度も使われていません。
+  gmm.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(192): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(236): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(225): warning C4244: '初期化中': 'double' から 'VECT' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(366): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(691): warning C4244: '+=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gmm.c(694): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gramlist.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(68): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(186): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(193): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(276): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(312): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(313): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(320): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\gramlist.c(270): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  graphout.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\graphout.c(2360): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\graphout.c(2362): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\graphout.c(2492): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  hmm_check.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\hmm_check.c(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\hmm_check.c(94): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+  instance.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(433): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(549): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(651): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(706): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\instance.c(709): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jfunc.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\jfunc.c(570): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\jfunc.c(600): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mbr.c
+  multi-gram.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\multi-gram.c(277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\multi-gram.c(279): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+  m_adin.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_adin.c(317): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_adin.c(312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  m_chkparam.c
+  m_fusion.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(232): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(238): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(332): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(1092): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(1099): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(1094): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_fusion.c(1101): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+  m_info.c
+  コンパイル中...
+  m_jconf.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(324): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(328): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1199): note: 'getenv' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(426): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(473): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(535): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(559): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(529): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(595): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(667): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_jconf.c(590): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  m_options.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(577): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(586): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(647): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(653): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(668): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(699): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(704): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(719): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(724): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(904): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(917): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(923): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(929): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(944): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1038): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1224): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1460): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1466): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1474): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(259): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(934): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1274): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1276): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\m_options.c(1281): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+  m_usage.c
+  ngram_decode.c
+  outprob_style.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\outprob_style.c(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\outprob_style.c(206): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\outprob_style.c(430): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\outprob_style.c(509): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\outprob_style.c(540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pass1.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\pass1.c(377): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\pass1.c(384): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\pass1.c(520): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\pass1.c(527): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\pass1.c(653): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  plugin.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\plugin.c(253): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\plugin.c(457): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\plugin.c(500): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\plugin.c(501): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\plugin.c(584): warning C4244: '=': 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+  realtime-1stpass.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\realtime-1stpass.c(695): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\realtime-1stpass.c(845): warning C4244: '=': 'float' から 'SP16' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\realtime-1stpass.c(1024): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  recogmain.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\recogmain.c(552): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\recogmain.c(564): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\recogmain.c(1201): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\recogmain.c(1208): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\recogmain.c(1224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  search_bestfirst_main.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\search_bestfirst_main.c(528): warning C4244: '+=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\search_bestfirst_main.c(568): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\search_bestfirst_main.c(1133): warning C4101: 'j': ローカル変数は 1 度も使われていません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\search_bestfirst_main.c(1521): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  search_bestfirst_v1.c
+  search_bestfirst_v2.c
+  spsegment.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\spsegment.c(165): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\spsegment.c(199): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  useropt.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\useropt.c(141): warning C4113: 'void (__cdecl *)()' はパラメーター リストが 'void (__cdecl *)(void)' と異なります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\useropt.c(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\useropt.c(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  version.c
+  wav2mfcc.c
+  wchmm.c
+  wchmm_check.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libjulius\src\wchmm_check.c(228): warning C4101: 'j': ローカル変数は 1 度も使われていません。
+  word_align.c
+  adin_file.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_file.c(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_file.c(329): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_file.c(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  コンパイル中...
+  adin_portaudio.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(168): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(223): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(226): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(265): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1199): note: 'getenv' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(276): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(302): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1199): note: 'getenv' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(303): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1199): note: 'getenv' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(404): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1199): note: 'getenv' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\adin_portaudio.c(463): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+  adin_tcpip.c
+  ds48to16.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\adin\ds48to16.c(359): warning C4244: '=': 'double' から 'SP16' への変換です。データが失われる可能性があります。
+  zc-e.c
+  zmean.c
+  paramselect.c
+  paramtypes.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\anlz\paramtypes.c(197): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  param_malloc.c
+  rdparam.c
+  strip.c
+  strip_mfcc.c
+  vecin_net.c
+  wrsamp.c
+  wrwav.c
+  cpair.c
+  dfa_lookup.c
+  dfa_malloc.c
+  dfa_util.c
+  init_dfa.c
+  mkcpair.c
+  コンパイル中...
+  mkterminfo.c
+  rddfa.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\dfa\rddfa.c(152): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\dfa\rddfa.c(157): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\dfa\rddfa.c(162): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\dfa\rddfa.c(167): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\dfa\rddfa.c(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' の宣言を確認してください
+  cdhmm.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(55): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\cdhmm.c(205): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cdset.c
+  check_hmmtype.c
+  check_hmm_restriction.c
+  chkhmmlist.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(258): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(301): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\chkhmmlist.c(329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  guess_cdHMM.c
+  hmm_lookup.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\hmm_lookup.c(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\hmm_lookup.c(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  init_phmm.c
+  put_htkdata_info.c
+  rdhmmdef.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\rdhmmdef.c(168): warning C4244: '=': 'double' から 'VECT' への変換です。データが失われる可能性があります。
+  rdhmmdef_data.c
+  rdhmmdef_dens.c
+  rdhmmdef_mpdf.c
+  rdhmmdef_options.c
+  rdhmmdef_regtree.c
+  rdhmmdef_state.c
+  rdhmmdef_streamweight.c
+  rdhmmdef_tiedmix.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\rdhmmdef_tiedmix.c(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  コンパイル中...
+  rdhmmdef_trans.c
+  rdhmmdef_var.c
+  rdhmmlist.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\rdhmmlist.c(79): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\rdhmmlist.c(88): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+  read_binhmm.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\hmminfo\read_binhmm.c(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  read_binhmmlist.c
+  write_binhmm.c
+  write_binhmmlist.c
+  rdwt.c
+  server-client.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\net\server-client.c(59): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(3415): note: 'WSASocketA' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\net\server-client.c(152): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1848): note: 'inet_ntoa' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\net\server-client.c(182): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(2218): note: 'gethostbyname' の宣言を確認してください
+  init_ngram.c
+  ngram_access.c
+  ngram_compact_context.c
+  ngram_lookup.c
+  ngram_malloc.c
+  ngram_read_arpa.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(70): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(134): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(139): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(144): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(217): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(213): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(218): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(223): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(276): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(280): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(285): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(295): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(387): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(392): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(405): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(418): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(421): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(424): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(431): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(499): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(398): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(406): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(483): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_read_arpa.c(660): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  ngram_read_bin.c
+  ngram_util.c
+  ngram_write_bin.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\ngram\ngram_write_bin.c(118): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  addlog.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\addlog.c(50): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  calc_dnn.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(325): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(363): warning C4305: 'return': 'double' から 'float' へ切り詰めます。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(364): warning C4305: 'return': 'double' から 'float' へ切り詰めます。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(563): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(551): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(555): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 'fscanf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_dnn.c(661): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  コンパイル中...
+  calc_dnn_avx.c
+  calc_dnn_fma.c
+  calc_dnn_neon.c
+  calc_dnn_neonv2.c
+  calc_dnn_sse.c
+  calc_mix.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_mix.c(80): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  calc_tied_mix.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_tied_mix.c(236): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\calc_tied_mix.c(345): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gms.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gms.c(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  gms_gprune.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gms_gprune.c(116): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gms_gprune.c(100): warning C4244: '初期化中': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gms_gprune.c(177): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gprune_beam.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_beam.c(182): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_beam.c(222): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gprune_common.c
+  gprune_heu.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_heu.c(181): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_heu.c(212): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_heu.c(224): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gprune_none.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_none.c(81): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+  gprune_safe.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_safe.c(94): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\gprune_safe.c(83): warning C4244: '初期化中': 'double' から 'VECT' への変換です。データが失われる可能性があります。
+  mkwhmm.c
+  outprob.c
+  outprob_init.c
+  vsegment.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\phmm\vsegment.c(140): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  aptree.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(415): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(419): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(423): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(475): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(479): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(483): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(448): warning C4101: 'maxbit': ローカル変数は 1 度も使われていません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\aptree.c(448): warning C4101: 'count_branch': ローカル変数は 1 度も使われていません。
+  confout.c
+  コンパイル中...
+  endian.c
+  gzfile.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\util\gzfile.c(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  jlog.c
+  mybmalloc.c
+  mymalloc.c
+  mystrtok.c
+  ptree.c
+  qsort.c
+  readfile.c
+  strcasecmp.c
+  init_voca.c
+  voca_load_htkdict.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(97): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(98): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(107): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(109): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(396): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(405): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(437): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(491): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(593): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(596): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(599): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(602): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(606): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(379): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(715): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_htkdict.c(720): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  voca_load_wordlist.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(265): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(308): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(486): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(489): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1959): note: '_snprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_load_wordlist.c(205): warning C4101: 'i': ローカル変数は 1 度も使われていません。
+  voca_lookup.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\voca\voca_lookup.c(126): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' の宣言を確認してください
+  voca_malloc.c
+  voca_util.c
+  mfcc-core.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(47): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(102): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(133): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(134): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(162): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(183): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(184): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(196): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(204): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(214): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(240): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(247): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(248): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(253): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(254): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(299): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(372): warning C4244: '*=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(387): warning C4244: '*=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(483): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(484): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(537): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(557): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(588): warning C4244: '*=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\mfcc-core.c(707): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  para.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(93): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(122): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(123): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(130): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(237): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(239): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(241): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(247): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(262): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(264): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(270): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(272): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(274): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(276): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(278): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(300): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(301): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(302): warning C4244: '/=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(303): warning C4244: '/=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\para.c(208): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  ss.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\ss.c(160): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  wav2mfcc-buffer.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(125): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(131): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(162): warning C4244: '/=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(274): warning C4244: '/=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(298): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コンパイル中...
+  wav2mfcc-pipe.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(364): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(368): warning C4244: '-=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(372): warning C4244: '/=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(384): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(388): warning C4244: '-=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(427): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(559): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(579): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(583): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(599): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(726): warning C4244: '=': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_julius\src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(744): warning C4244: 'return': 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Julius.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_Julius\lib\Julius.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_Julius) が Library の OutputFile プロパティ値 (Julius) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_Julius.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Julius.lib

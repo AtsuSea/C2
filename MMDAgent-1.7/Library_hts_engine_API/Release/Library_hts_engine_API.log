@@ -1,0 +1,26 @@
+﻿  src\include\HTS_engine.h
+          1 個のファイルをコピーしました。
+  HTS_audio.c
+  HTS_engine.c
+  HTS_gstream.c
+  HTS_label.c
+  HTS_misc.c
+  HTS_model.c
+  HTS_pstream.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_pstream.c(94): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  HTS_sstream.c
+  HTS_vocoder.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(266): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(313): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(379): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(459): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(759): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(894): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(904): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(912): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(914): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(918): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_hts_engine_api\src\lib\hts_vocoder.c(944): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_hts_engine_API.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_hts_engine_API\lib\hts_engine_API.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_hts_engine_API) が Library の OutputFile プロパティ値 (hts_engine_API) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_hts_engine_API.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_hts_engine_API.lib

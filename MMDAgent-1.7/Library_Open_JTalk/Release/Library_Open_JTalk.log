@@ -1,0 +1,160 @@
+﻿          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+          1 個のファイルをコピーしました。
+  jpcommon.c
+  jpcommon_label.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(115): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(181): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(194): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(207): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(231): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(456): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_label.c(459): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+  jpcommon_node.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_node.c(76): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_node.c(83): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_node.c(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\jpcommon\jpcommon_node.c(97): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+  mecab2njd.c
+  njd2jpcommon.c
+  njd.c
+  njd_node.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(108): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(118): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(138): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(158): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(178): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(188): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(198): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(227): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(241): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\njd\njd_node.c(258): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+  njd_set_accent_phrase.c
+  njd_set_accent_type.c
+  njd_set_digit.c
+  njd_set_long_vowel.c
+  njd_set_pronunciation.c
+  njd_set_unvoiced_vowel.c
+  text2mecab.c
+  char_property.cpp
+  connector.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+  context_id.cpp
+  dictionary.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\dictionary.cpp(418): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\dictionary.cpp(419): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+  c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\darts.h(129): note: クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::insert(const std::vector<MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)' のコンパイル中
+          with
+          [
+              _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t
+          ]
+  c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\darts.h(292): note: コンパイル対象の関数 テンプレート インスタンス化 'size_t MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::insert(const std::vector<MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)' のリファレンスを確認してください
+          with
+          [
+              _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t
+          ]
+  c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\dictionary.h(29): note: コンパイル対象の クラス テンプレート インスタンス化 'MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>' のリファレンスを確認してください
+  dictionary_compiler.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+  dictionary_generator.cpp
+  dictionary_rewriter.cpp
+  eval.cpp
+  feature_index.cpp
+  iconv_utils.cpp
+  lbfgs.cpp
+  learner.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\learner.cpp(168): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\learner.cpp(170): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\learner.cpp(305): warning C4305: 'return': 'int' から 'bool' へ切り詰めます。
+  learner_tagger.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\learner_tagger.cpp(88): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\learner_tagger.cpp(123): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+  libmecab.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\libmecab.cpp(380): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  mecab.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\mecab.cpp(93): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\mecab.cpp(94): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\mecab.cpp(95): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\mecab.cpp(163): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+  nbest_generator.cpp
+  param.cpp
+  string_buffer.cpp
+  tagger.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(209): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(260): warning C4244: 'return': 'const double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(432): warning C4244: '引数': 'const double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(515): warning C4244: 'return': 'const double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(847): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tagger.cpp(848): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+  tokenizer.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tokenizer.cpp(287): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+  c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\tokenizer.cpp(52): note: コンパイル対象の関数 テンプレート インスタンス化 'MeCab::Node *MeCab::Tokenizer<MeCab::Node,MeCab::Path>::lookup<false>(const char *,const char *,MeCab::Allocator<MeCab::Node,MeCab::Path> *,MeCab::Lattice *) const' のリファレンスを確認してください
+  コンパイル中...
+  utils.cpp
+  viterbi.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(36): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\connector.h(37): warning C4267: '=': 'size_t' から 'unsigned short' に変換しました。データが失われているかもしれません。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\viterbi.cpp(26): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\viterbi.cpp(35): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\viterbi.cpp(159): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\viterbi.cpp(161): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  writer.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\library_open_jtalk\src\mecab\src\writer.cpp(143): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Open_JTalk.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_Open_JTalk\lib\Open_JTalk.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_Open_JTalk) が Library の OutputFile プロパティ値 (Open_JTalk) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_Open_JTalk.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Open_JTalk.lib

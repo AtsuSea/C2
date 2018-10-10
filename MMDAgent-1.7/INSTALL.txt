@@ -1,0 +1,145 @@
+BRIEF INSTALLATION INSTRUCTION
+================================
+
+
+Windows
+=======
+
+- Install Visual Studio.  2010 and later are required.
+- Unpack archive and open "MMDAgent_vs2010.sln" at the package top directory.
+- If asked to update projects for your version of VS, Press "OK".
+- Right-click on "main" project at left pane, and choose "set as startup project".
+- Choose build option: either "Release" or "Debug".
+- Start building from menu: BUILD > Build Solution
+
+Products will be placed under "Release" or "Debug" directory at package root.
+To run Debug, copy "Release/AppData" to "Debug/AppData" before running.
+
+(Tested on Windows10 / VisualStudio 2013)
+
+-------------------------------------------------------------------------------
+
+Linux
+======
+- Make sure the following packages are installed.
+   % sudo apt-get install build-essential libc6-dev libasound2-dev
+   % sudo apt-get install mesa-common-dev libglu1-mesa-dev libxrandr-dev
+- Unpack the archive.
+- Change current directory to the package top directory.
+- Start building by
+   % make x11
+
+Products will be placed under "Release" directory.
+To clean up, do "make x11-clean"
+
+Tested on Ubuntu 16.04 LTS and 14.04 LTS.
+
+-------------------------------------------------------------------------------
+
+MacOS
+======
+- Install Xcode
+- Install "Command Linet Tool for Xcode":
+   - Open Apple download page in web browser.
+            Menu: Xcode > Open Development Tool > More Developer Tools...
+   - From the "Downloads for Apple Developer" page, find "Command Line Tools" whose version and target OS matches your environment.
+   - Downloat and install it.
+- Unpack the archive .
+- Open terminal and change current directory to the package top directory.
+- Start building by
+    % make cocoa
+
+Products will be placed under "Release/MMDAgent.app/" directory.
+To clean up, do "make cocoa-clean"
+
+Tested on MacOS Sierra (10.12.1) / XCode 8.1
+
+-------------------------------------------------------------------------------
+
+iOS (iPhone / iPad)
+====================
+- Install Xcode
+- Unpack archive.
+- Connect your iOS device.
+- Run Xcode.
+- Open "mmdagent.xcworkspace" in the unpacked archive in Xcode.
+- Click "main" at the left pane.
+- Select [General] tab at top tab list and edit below.
+   - Identity
+      - Bundle Identifier (set appropriate identifier for your product)
+      - Team (set your team ID)
+      and also you can modify anything that may be required to build MMDAgent as your app.
+- Choose "MMDAgent > your device" as active scheme
+   - Current scheme is on the left top corner.
+   - When asked about device-related issues on choice, answer them.
+   - You can choose build setting to either "Debug" or "Release" by changing Scheme setting
+         Product > Scheme > Edit Scheme... > Run > Build Configuration
+- Prepare the default contents
+   - Create a folder "Resources" under "main"
+   - Copy the whole directory of "Release/AppData" as "main/Resources/AppData"
+   - Place a dialogue content (fst, mdf, models, motions, etc.) under "main/Resources".
+        "MMDAgent.mdf" in that directory will be opened on the Application.
+   - Setup Xcode to bundle their copy into app package
+      - In Xcode, "main" project > [Build Phases] > Copy Bundle Resources
+          - Add all the files and directories just under the "main/Resource"
+-  Start building by pushing ">" button at the top-left.
+     After build, MMDAgent will be automatically installed to the connected device and start running.
+     At the first time you run the built MMDAgent App on your device, you will first asked to authorize
+     the development account on the device from Settings menu on iOS.
+
+Tested on MacOS Sierra (10.12.1) / XCode 8.1 / iOS 10.0.1
+
+-------------------------------------------------------------------------------
+
+Android
+========
+- Install Android Studio.
+   - Install JDK if required
+   - Install Android SDK if required (will be automatically installed)
+- Install NDK
+   - In Android Studio,
+       - File > Settings
+       - Appearance & Behavior > System Settings > Android SDK > SDK Tools > "NDK" > Apply
+- Create a new Android Studio project
+   - Application Name: MMDAgent
+   - Company Domain: example.com (or whatever you like)
+   - Minimum SDK >= API 14
+   - "Add No Activity"
+- Create JNI Folder in the project
+   - Create JNI Folder from menu
+   - Typically it is "MMDAgent\app\src\main\jni"
+- Unpack MMDAgent source archive, and import all files and folders in the archive under the JNI Folder
+- Edit "MMDAgent\app\src\main\AndroidManifest.xml"
+   - Package name (same as project package name)
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+         package="com.example.mmdagent">
+   - Add permissions
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+   - Add native activity
+        <activity android:name="android.app.NativeActivity" android:label="@string/app_name">
+            <meta-data android:name="android.app.lib_name" android:value="main" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+- Specify NDK path in "MMDAgent\local.properties"
+        ndk.dir=C\:\\Users\\<Username>\\AppData\\Local\\Android\\Sdk\\ndk-bundle
+- Setup "MMDAgent\app\build.gradle".
+      - Set package name
+      - Modify the rest of the file to use "ndk-build" command for build instead of gradle
+- Prepare system folder on your Android device
+      - Decide where to place it, either internal file system or external file system (SD card etc.)
+      - Place "AppData" from "Release" directory of the source archive to the folder
+- Prepare the default contents
+      - Decide where to place them, either internal file system or external file system (SD card etc.)
+      - Place the dialogue contents in that folder
+- Edit "Library_MMDAgent\Android.mk" to specify the paths above
+      edit "-DMMDAGENT_OVERWRITE*" definitions at the last part of the file
+-  Start building by pushing ">" button at the top-left.
+     After build, MMDAgent will be automatically installed to the connected device and start running.
+     You may also required to configure your Android device to allow running a development application.
+
+Testd on Windows 10 64bit / Android Studio 2.2.3

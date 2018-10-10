@@ -1,0 +1,31 @@
+﻿          1 個のファイルをコピーしました。
+  enable.c
+  fullscreen.c
+  glext.c
+  image.c
+  init.c
+  input.c
+  joystick.c
+  stream.c
+  tga.c
+  thread.c
+  time.c
+  win32_enable.c
+  win32_fullscreen.c
+  win32_glext.c
+  win32_init.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_glfw\src\lib\win32\win32_init.c(237): warning C4996: 'GetVersionExA': が非推奨として宣言されました。
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\sysinfoapi.h(436): note: 'GetVersionExA' の宣言を確認してください
+  win32_joystick.c
+  win32_thread.c
+  win32_time.c
+  win32_window.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_glfw\src\lib\win32\win32_window.c(1088): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_glfw\src\lib\win32\win32_window.c(1051): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(926): note: 'mbstowcs' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_glfw\src\lib\win32\win32_window.c(1062): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(926): note: 'mbstowcs' の宣言を確認してください
+  window.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_GLFW.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_GLFW\lib\GLFW.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_GLFW) が Library の OutputFile プロパティ値 (GLFW) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_GLFW.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_GLFW.lib

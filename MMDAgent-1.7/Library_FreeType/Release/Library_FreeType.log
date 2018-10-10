@@ -1,0 +1,158 @@
+﻿  src\include\freetype.h
+  src\include\ft2build.h
+  src\include\ftadvanc.h
+  src\include\ftautoh.h
+  src\include\ftbbox.h
+  src\include\ftbdf.h
+  src\include\ftbitmap.h
+  src\include\ftbzip2.h
+  src\include\ftcache.h
+  src\include\ftcffdrv.h
+  src\include\ftchapters.h
+  src\include\ftcid.h
+  src\include\fterrdef.h
+  src\include\fterrors.h
+  src\include\ftgasp.h
+  src\include\ftglyph.h
+  src\include\ftgxval.h
+  src\include\ftgzip.h
+  src\include\ftimage.h
+  src\include\ftincrem.h
+  src\include\ftlcdfil.h
+  src\include\ftlist.h
+  src\include\ftlzw.h
+  src\include\ftmac.h
+  src\include\ftmm.h
+  src\include\ftmodapi.h
+  src\include\ftmoderr.h
+  src\include\ftotval.h
+  src\include\ftoutln.h
+  src\include\ftpfr.h
+  src\include\ftrender.h
+  src\include\ftsizes.h
+  src\include\ftsnames.h
+  src\include\ftstroke.h
+  src\include\ftsynth.h
+  src\include\ftsystem.h
+  src\include\fttrigon.h
+  src\include\ftttdrv.h
+  src\include\fttypes.h
+  src\include\ftwinfnt.h
+  src\include\ftxf86.h
+  src\include\t1tables.h
+  src\include\ttnameid.h
+  src\include\tttables.h
+  src\include\tttags.h
+  src\include\ttunpat.h
+  src\include\config\ftconfig.h
+  src\include\config\ftheader.h
+  src\include\config\ftmodule.h
+  src\include\config\ftoption.h
+  src\include\config\ftstdlib.h
+  src\include\internal\autohint.h
+  src\include\internal\ftcalc.h
+  src\include\internal\ftdebug.h
+  src\include\internal\ftdriver.h
+  src\include\internal\ftgloadr.h
+  src\include\internal\ftmemory.h
+  src\include\internal\ftobjs.h
+  src\include\internal\ftpic.h
+  src\include\internal\ftrfork.h
+  src\include\internal\ftserv.h
+  src\include\internal\ftstream.h
+  src\include\internal\fttrace.h
+  src\include\internal\ftvalid.h
+  src\include\internal\internal.h
+  src\include\internal\psaux.h
+  src\include\internal\pshints.h
+  src\include\internal\sfnt.h
+  src\include\internal\t1types.h
+  src\include\internal\tttypes.h
+  src\include\internal\services\svbdf.h
+  src\include\internal\services\svcid.h
+  src\include\internal\services\svgldict.h
+  src\include\internal\services\svgxval.h
+  src\include\internal\services\svkern.h
+  src\include\internal\services\svmm.h
+  src\include\internal\services\svotval.h
+  src\include\internal\services\svpfr.h
+  src\include\internal\services\svpostnm.h
+  src\include\internal\services\svprop.h
+  src\include\internal\services\svpscmap.h
+  src\include\internal\services\svpsinfo.h
+  src\include\internal\services\svsfnt.h
+  src\include\internal\services\svttcmap.h
+  src\include\internal\services\svtteng.h
+  src\include\internal\services\svttglyf.h
+  src\include\internal\services\svwinfnt.h
+  src\include\internal\services\svxf86nm.h
+  88 個のファイルをコピーしました
+  autofit.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afscript.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afscript.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afblue.c : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afscript.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afscript.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\autofit\afscript.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  ftbase.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\base\ftrfork.c(826): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\base\ftrfork.c(827): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\base\ftrfork.c(816): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 'strncpy' の宣言を確認してください
+  ftbbox.c
+  ftbdf.c
+  ftbitmap.c
+  ftcid.c
+  ftdebug.c
+  ftfstype.c
+  ftgasp.c
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+  ftlcdfil.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  ftsystem.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\base\ftsystem.c(240): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' の宣言を確認してください
+  コンパイル中...
+  fttype1.c
+  ftwinfnt.c
+  ftxf86.c
+  bdf.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\bdf\bdflib.c(2012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\bdf\bdflib.c(2025): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\bdf\bdflib.c(2350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\bdf\bdflib.c(2358): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' の宣言を確認してください
+  ftcache.c
+  cff.c
+  type1cid.c
+  gxvalid.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_freetype\src\src\gxvalid\gxvmort2.c(195): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+  ftgzip.c
+  ftlzw.c
+  otvalid.c
+  pcf.c
+  pfr.c
+  psaux.c
+  pshinter.c
+  psnames.c
+  raster.c
+  sfnt.c
+  smooth.c
+  truetype.c
+  コンパイル中...
+  type1.c
+  type42.c
+  winfnt.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_FreeType.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_FreeType\lib\FreeType.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_FreeType) が Library の OutputFile プロパティ値 (FreeType) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_FreeType.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_FreeType.lib

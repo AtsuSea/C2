@@ -1,0 +1,32 @@
+﻿  src\crc32.h
+  src\deflate.h
+  src\gzguts.h
+  src\inffast.h
+  src\inffixed.h
+  src\inflate.h
+  src\inftrees.h
+  src\trees.h
+  src\zconf.h
+  src\zlib.h
+  src\zutil.h
+         11 個のファイルをコピーしました。
+  adler32.c
+  compress.c
+  ioapi.c
+  unzip.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_zlib.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_zlib\lib\zlib.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_zlib) が Library の OutputFile プロパティ値 (zlib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_zlib.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_zlib.lib

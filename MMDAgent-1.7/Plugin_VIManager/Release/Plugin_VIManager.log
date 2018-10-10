@@ -1,0 +1,10 @@
+﻿  Plugin_VIManager.cpp
+  VIManager.cpp
+  VIManager_Logger.cpp
+  VIManager_Thread.cpp
+     ライブラリ C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Plugins\Plugin_VIManager.lib とオブジェクト C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Plugins\Plugin_VIManager.exp を作成中
+  コード生成しています。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_re2\include\util\logging.h(81): warning C4722: 'LogMessageFatal::~LogMessageFatal': デストラクターに値が戻りません。メモリ リークの可能性があります
+  All 8191 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Plugin_VIManager.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Plugins\Plugin_VIManager.dll

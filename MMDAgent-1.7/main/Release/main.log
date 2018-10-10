@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\drowl\git\c実験\mmdagent-1.7\main\main.cpp(638): warning C4316: 'MMDAgent': ヒープで割り当てられたオブジェクトが 16 にアラインメントされていない可能性があります
+  コード生成しています。
+  All 7398 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  main.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\MMDAgent.exe

@@ -1,0 +1,93 @@
+﻿  src\flite\include\cst_alloc.h
+  src\flite\include\cst_args.h
+  src\flite\include\cst_audio.h
+  src\flite\include\cst_cart.h
+  src\flite\include\cst_endian.h
+  src\flite\include\cst_error.h
+  src\flite\include\cst_features.h
+  src\flite\include\cst_ffeatures.h
+  src\flite\include\cst_file.h
+  src\flite\include\cst_hrg.h
+  src\flite\include\cst_item.h
+  src\flite\include\cst_lexicon.h
+  src\flite\include\cst_lts.h
+  src\flite\include\cst_lts_rewrites.h
+  src\flite\include\cst_math.h
+  src\flite\include\cst_phoneset.h
+  src\flite\include\cst_regex.h
+  src\flite\include\cst_relation.h
+  src\flite\include\cst_sigpr.h
+  src\flite\include\cst_socket.h
+  src\flite\include\cst_ss.h
+  src\flite\include\cst_string.h
+  src\flite\include\cst_sts.h
+  src\flite\include\cst_synth.h
+  src\flite\include\cst_tokenstream.h
+  src\flite\include\cst_track.h
+  src\flite\include\cst_utterance.h
+  src\flite\include\cst_utt_utils.h
+  src\flite\include\cst_val.h
+  src\flite\include\cst_val_const.h
+  src\flite\include\cst_val_defs.h
+  src\flite\include\cst_viterbi.h
+  src\flite\include\cst_voice.h
+  src\flite\include\cst_wave.h
+  src\flite\include\flite.h
+         35 個のファイルをコピーしました。
+  src\include\flite_hts_engine.h
+          1 個のファイルをコピーしました。
+  cmu_lex.c
+  cmu_lex_data.c
+  cmu_lex_entries.c
+  cmu_lts_model.c
+  cmu_lts_rules.c
+  cmu_postlex.c
+  cmu_us_kal.c
+  usenglish.c
+  us_aswd.c
+  us_expand.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\flite\lang\usenglish\us_expand.c(253): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  us_ffeatures.c
+  us_gpos.c
+  us_int_accent_cart.c
+  us_int_tone_cart.c
+  us_nums_cart.c
+  us_phoneset.c
+  us_phrasing_cart.c
+  us_pos_cart.c
+  us_text.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\flite\lang\usenglish\us_text.c : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\flite\lang\usenglish\us_text.c(379): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  cst_ffeature.c
+  コンパイル中...
+  cst_item.c
+  cst_relation.c
+  cst_utterance.c
+  cst_lexicon.c
+  cst_lts.c
+  cst_regex.c
+  regexp.c
+  cst_cart.c
+  cst_ffeatures.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\flite\src\synth\cst_ffeatures.c(275): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  cst_phoneset.c
+  cst_synth.c
+  cst_utt_utils.c
+  cst_voice.c
+  flite.c
+  cst_alloc.c
+  cst_error.c
+  cst_features.c
+  cst_string.c
+  cst_tokenstream.c
+  cst_val.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\flite\src\utils\cst_val.c(203): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コンパイル中...
+  cst_val_const.c
+  cst_val_user.c
+  flite_hts_engine.c
+c:\users\drowl\git\c実験\mmdagent-1.7\library_flite_plus_hts_engine\src\lib\flite_hts_engine.c(220): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: 'strdup' の宣言を確認してください
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1386,5): warning MSB8012: TargetPath(C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Flite_plus_hts_engine.lib) が Library の OutputFile プロパティ値 (C:\Users\drowl\git\C実験\MMDAgent-1.7\Library_Flite_plus_hts_engine\lib\Flite_plus_hts_engine.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1388,5): warning MSB8012: TargetName(Library_Flite_plus_hts_engine) が Library の OutputFile プロパティ値 (Flite_plus_hts_engine) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+  Library_Flite_plus_hts_engine.vcxproj -> C:\Users\drowl\git\C実験\MMDAgent-1.7\Release\Library_Flite_plus_hts_engine.lib
