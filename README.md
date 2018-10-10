@@ -1,4 +1,4 @@
-# C2”ÇÀŒ±—p
+# C2ç­å®Ÿé¨“ç”¨
 
-Windows@64bit
+Windowsã€€64bit
 Visual Studio 2017 Community
